@@ -20,7 +20,7 @@ You will use Anaconda to build the environment that the grader server needs to r
 
 ## Step 3: Install Docker Desktop
 
-You will use Docker to run a version of the virtual machine that students  use to complete their assignments.
+You will use Docker to run a version of the virtual machine that students use to complete their assignments.
 
 **Windows, Mac, and Linux Users:** You can install Docker Desktop by following the instructions [here](https://www.docker.com/products/docker-desktop/).
 
@@ -33,3 +33,7 @@ You will use your terminal and Anaconda to build the grader environment.
 - Create a new environment by running `conda create --name grader python=3.11`. When asked if you want to proceed, type `y` and press `Enter`.
 - Activate the environment by running `conda activate grader`.
 - Install the `grading-tools` library and Jupyter Lab by running `pip install grading-tools jupyterlab`.
+
+# Reference
+
+- `grading-tools` documentation: https://worldquant-university.github.io/grading-tools/
