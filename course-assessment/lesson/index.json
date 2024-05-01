@@ -13,6 +13,25 @@
           "method": "grade_list"
         }
       }
+    },
+    {
+      "id": "Task 3",
+      "gradingType": "code",
+      "arguments": "submission",
+      "function": "grade",
+      "defaults": {
+        "grader": {
+          "answer": "task_3.pkl",
+          "type": "PandasGrader",
+          "method": "grade_df"
+        },
+        "loaders": [
+          {
+            "file_key": "grader__answer",
+            "method": "load_pkl"
+          }
+        ]
+      }
     }
   ]
 }
