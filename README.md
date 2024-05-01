@@ -34,6 +34,13 @@ You will use your terminal and Anaconda to build the grader environment.
 - Activate the environment by running `conda activate grader`.
 - Install the `grading-tools` library and Jupyter Lab by running `pip install grading-tools jupyterlab`.
 
+## Step 5: Make Scripts Executable
+
+- Clone this repository to your local machine.
+- Navigate to the repository in your terminal / WSL using the `cd` command.
+- Make the `run.sh` script executable by running `chmod +x *.sh`.
+- Make the files in the `scripts` directory executable by running `chmod +x scripts/*.py`.
+
 # Reference
 
 - `grading-tools` documentation: https://worldquant-university.github.io/grading-tools/
