@@ -4,7 +4,7 @@ import sys
 from wqet_grader.utils import set_grading_content_path
 
 if len(sys.argv) < 2:
-    set_grading_content_path("./ds_assessments/")
+    set_grading_content_path("./course-assessment/")
 else:
     set_grading_content_path(sys.argv[1])
 
